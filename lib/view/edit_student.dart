@@ -29,7 +29,6 @@ class _EditStudentState extends State<EditStudent> {
 
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
     _nameController.text = widget.data.name;
     _domainController.text = widget.data.domain;

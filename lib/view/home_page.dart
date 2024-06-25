@@ -23,7 +23,7 @@ class HomePage extends StatelessWidget {
         actions: [
           IconButton(
             onPressed: () {
-              Get.to(() => SearchStudent());
+              Get.to(() =>const SearchStudent());
             },
             icon: const Icon(Icons.search),
           )
